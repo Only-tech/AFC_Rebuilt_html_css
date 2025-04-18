@@ -6,14 +6,15 @@
     }
   
     body {
+        display: 100vh;
         font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
         background-color: #fff;
-        padding-top: 20px; /* Space for fixed header */
+        padding-top: 20px; /* .........Space for fixed header...... */
     }
   
 
   
-    /* Animation keyframes */
+    /* ........Animation keyframes........... */
     @keyframes hoverEffect {
         0% { transform: scale(1); }
         50% { transform: scale(1.05); }
@@ -21,7 +22,7 @@
     }
 
     
-    /* Single hover animation for interactive elements */
+    /* ............Single hover animation for interactive elements........ */
     button:hover,
     .brand:hover,
     .store_button:hover,
@@ -31,12 +32,12 @@
     .contact_button:hover,
     .member_button:hover,
     .send_button:hover,
-    .social-icon:hover {
+    .social_logo:hover {
         animation: hoverEffect 0.6s ease;
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     }
     
-    /* ....header, sa marge et effet ombre...... */
+    /* ....header, margin and shadow-effet...... */
     header {
         background-color: #fff;
         display: flex;
@@ -58,15 +59,8 @@
         margin: auto 0;
     }
     
-    nav {
-        display: flex;
-        margin: auto 0;
-        height: 50px;
-        gap: 30px;
-        flex-wrap: wrap;
-
-    }
     
+    /* .....header store button........ */
     .store_button {
         border-radius: 25px;
         background-color: #fa0909;
@@ -85,6 +79,16 @@
         box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.3);
     }
     
+    /* ....navigation menu...... */
+    nav {
+        display: flex;
+        margin: auto 0;
+        height: 50px;
+        gap: 30px;
+        flex-wrap: wrap;
+
+    }
+
     nav ul {
         display: flex;
         margin: auto 0;
@@ -101,6 +105,7 @@
         transition: color 0.3s ease;
     }
     
+    /* .......navigation menu red text and red underline animation......... */
     .nav_link:hover {
         color: #fa0909;
     }
@@ -126,10 +131,9 @@
         width: 38px;
     }
     
-    /* a.............fc about section............... */
+    /* .............afc about section............... */
     
-    /* illustration about */
-
+    /* .......afc background... */
     #afc_about {
         background: url("../img/background_section_intro.jpg") no-repeat;
         background-size: cover;
@@ -137,8 +141,9 @@
         padding: 120px 6%;
 
     }
-
-    .intro_afc {
+    
+    /* ....afc container..... */
+    .intro_afc { 
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -177,7 +182,7 @@
     }
 
 
-    /* ....background des paragraphes intro.... */
+    /* ....background text intro afc.... */
     
     .intro_afc p:nth-child(1)::before {    
         content: "";
@@ -213,6 +218,7 @@
         background-size: contain;
     }  
 
+    /* .......intro afc section button with animation........ */
     .join_us_button {
         border-radius: 50px;
         background-color: #fa0909;
@@ -235,7 +241,7 @@
     }
         
 
-    /* ......Store section............. */
+    /* ................Store section............. */
 
     #store {
         max-width: 1200px;
@@ -245,7 +251,37 @@
         text-align: center;
         
     }
+
+    /* ..........head scrolling text.......... */
+    .scrolling_text {
+        white-space: nowrap;
+        position: absolute;
+        width: 100%; 
+        font-size: 24px;
+        font-weight: bold;
+        color: #131c46;
+        animation: scroll-left 25s linear infinite;
+    }
+
+        @keyframes scroll-left {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .ride_text {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 50px;
+    }
+
+
     
+
     #store h5 {
         color: #3E3E3E;
         font-size: 20px;
@@ -267,6 +303,7 @@
         margin-top: 25px;
     }
     
+    /* ......products container......... */
     .box_products {
         display: flex;
         flex-wrap: wrap;
@@ -288,6 +325,7 @@
         
     }
 
+    /* ......product card animation......... */
     .product_card:hover {
         transform: translateY(-15px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -312,6 +350,7 @@
         padding: 10px;
     }
     
+    /* ......product card add to cart button with animation....... */
     .add_to_cart_button {
         align-self: center;
         border-radius: 25px;
@@ -366,6 +405,7 @@
         z-index: 1;
     }
     
+    /* ........discount banner.......... */
     .discount_brands_collections {
         border-radius: 25px;
         background-color: rgba(19, 28, 70, 0.95);
@@ -425,6 +465,7 @@
         margin: auto 0;
     }
     
+    /* .........brands container........... */
     .box_brands {
         z-index: 1;
         display: flex;
@@ -437,6 +478,7 @@
         width: 1100px;
     }
 
+    /* ......brand card......... */
     .brand {
         border-radius: 25px;
         position: relative;
@@ -455,7 +497,7 @@
         transform: translateY(-10px);
     }
     
-    /* ......brand background......... */
+    /* ......brand background with animation......... */
 
     .brand:nth-child(1)::before {
         background: url("../img/nike.jpg") no-repeat;
@@ -495,6 +537,7 @@
         z-index: 0;
     }
     
+    /* ........view button on brand card......... */
     .view_button {
         align-items: center;
         border-radius: 25px;
@@ -513,7 +556,7 @@
         background-color: #fa0909;
     }
     
-    /* ...........customer_reviews.........*/
+    /* ...........customer_reviews container.........*/
     .customer_reviews {
         text-align: left;
         margin-top: 40px;
@@ -585,6 +628,7 @@
         align-items: center;
     }
 
+    /* .....service card......... */
     .service figure{
         display: flex;
         margin-top: 70px;
@@ -628,7 +672,7 @@
         transform: scale(2);
     }
 
-    
+    /* .....our services contact button ........... */
     .contact_button {
         border-radius: 50px;
         background-color: #fa0909;
@@ -648,7 +692,7 @@
         box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.3);
     }
     
-    /* .........Team section........... */
+    /* ......................Team section................... */
     #team {
         display: flex;
         margin: auto;
@@ -668,6 +712,7 @@
         align-self: stretch;
     }
     
+    /* ........news container........... */
     .box_news {
         border-radius: 50px;
         background-color: #131c46;
@@ -688,6 +733,7 @@
         font-weight: 700;
     }
     
+    /* .......news card......... */
     .news figure{
         display: flex;
         margin-top: 50px;
@@ -737,6 +783,7 @@
         line-height: 28px;
     }
     
+    /* ........container players........... */
     .box_players {
         display: flex;
         margin-top: 70px;
@@ -756,6 +803,7 @@
         line-height: 1;
     }
     
+    /* .......players list.......... */
     .players {
         display: flex;
         flex-wrap: wrap;
@@ -793,6 +841,7 @@
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     }
     
+    /* .......team's member button....... */
     .member_button {
         border-radius: 50px;
         background-color: #fa0909;
@@ -904,6 +953,7 @@
         background-color: #fff
     }
     
+    /* ........contact send button......... */
     .send_button {
         border-radius: 0 20px 20px 0;
         background-color: #fa0909;
@@ -923,7 +973,7 @@
     }
     
 
-    /* ............Footer..............*/
+    /* ......................Footer......................*/
     footer {
         background-color: #131c46;
         display: flex;
@@ -991,7 +1041,7 @@
         color: #fa0909;
     }
 
-    /* .....espace entre Directionn et Contact...... */
+    /* .....space between contact and staff...... */
     .footer_menu figure {
         margin-bottom: 20px;
     }
@@ -1006,7 +1056,7 @@
         flex-wrap: wrap;
     }
     
-    .social-icon {
+    .social_logo {
         max-width: 45px;
         max-height: 45px;
         color: #d9d9d9;
@@ -1021,7 +1071,7 @@
         width: 100px;
     }
     
-    .social-icon:hover {
+    .social_logo:hover {
         transform: scale(1.2);
     }
     
@@ -1032,3 +1082,197 @@
         text-align: center;
         cursor: pointer;
     }
+
+    /* ................Tablet display.................... */
+
+    @media (max-width: 1024px) {
+        
+        /* .............afc about section............... */
+        
+        /* .......afc background... */
+        #afc_about {
+            padding: 80px 6%;
+
+        }
+
+        .intro_afc h1 {
+            font-size: 90px;
+            width: 380px;
+        }
+        
+
+
+        .intro_afc article{
+            font-size: 16px;
+            width: 460px;
+        }
+        
+        .intro_afc p{
+            width: 460px;
+            margin-top: 30px;
+            padding: 3px;
+        }
+
+
+        /* ....background text intro afc.... */
+        .intro_afc p:nth-child(2)::before, .intro_afc p:nth-child(3)::before {    
+            bottom: -58px;
+        }  
+ 
+
+        /* ......................Team section................... */
+        #team {
+            display: flex;
+            margin: auto;
+            width: 100%;
+            max-width: 900px;
+            padding: 70px 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #team h2 {
+            color: #131c46;
+            text-align: center;
+            font-size: 64px;
+            font-weight: 800;
+            align-self: stretch;
+        }
+        
+        /* ........news container........... */
+        .box_news {
+            padding: 20px;
+        }
+        
+        
+        .box_news h3 {
+            font-size: 32px;
+        }
+        
+        /* .......news card......... */
+        .news figure{
+            margin-top: 20px;
+        }
+        
+        .news img {
+            width: 340px;
+        }
+        
+        .news_content {
+            width: 500px;
+        }
+        
+        .news_content h4 {
+            font-size: 19px;
+        }
+        
+        .news_content p {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+    }
+
+
+
+    @media (max-width: 912px) {
+        
+        /* .............afc about section............... */
+        
+        /* .......afc background... */
+        #afc_about {
+            padding: 80px 6%;
+            text-align: center;
+            margin: auto;
+
+        }
+
+        .intro_afc h1 {
+            width: 100%;
+        }
+        
+        .intro_afc article{
+            margin: auto;
+        }
+        
+        /* .......intro afc section button with animation........ */
+        .join_us_button {
+            margin-top: 55px;
+        }
+
+            /*............brands collections.............*/
+        .brands_collections {
+            width: 90%;
+            margin:50px auto;
+        }
+
+        /* .........Services section......... */
+        #services {
+            padding: 50px 0;
+        }
+
+        /* .....service card......... */
+        .service figure{
+            max-width: 800px;
+        }
+        
+        .service_content {
+            width: 400px;
+        }
+        
+
+        /* ......................Team section................... */
+        #team {
+            max-width: 750px;
+            padding: 50px 0;
+
+        }
+        
+        
+        /* ........news container........... */
+        .box_news {
+            padding: 20px;
+        }
+        
+        /* .......news card......... */
+        .news figure{
+            margin-top: 40px;
+        }
+        
+        .news img {
+            width: 100%;
+            border-radius: 0 0 20px 20px;
+        }
+        
+        .row_reverse img {
+            order: 2;
+        }
+
+        .news_content {
+            width: 100%;
+        }
+        
+        .news_content p {
+            border-radius: 20px 20px 0 0;
+        }
+
+
+
+        /* ......................Footer......................*/ 
+        .footer_menu {
+            width: 700px;
+            gap: 30px;
+        }
+
+        .footer_text {
+            color: #d9d9d9;
+            font-size: 15px;
+            width: 196px;
+        }
+        
+
+    }
+
+    
