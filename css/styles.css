@@ -761,7 +761,6 @@
     .news_content {
         min-width: 240px;
         margin: auto 0;
-        min-height: 230px;
         width: 560px;
     }
     
@@ -1252,6 +1251,7 @@
 
         .news_content {
             width: 100%;
+            margin: 0;
         }
         
         .news_content p {
