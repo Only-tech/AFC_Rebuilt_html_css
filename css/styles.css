@@ -14,15 +14,76 @@
   
 
   
-    /* ........Animation keyframes........... */
-    @keyframes hoverEffect {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.05); }
-        100% { transform: scale(1); }
+    /* .............Slide-in Animation........... */
+    .left_slide_in {
+      opacity: 0;
+      transform: translateX(-100%);
+      animation: left-slide-in 1s ease-in-out forwards;
     }
 
+    @keyframes left-slide-in {
+      0% {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .right_slide_in {
+      opacity: 0;
+      transform: translateX(100%);
+      animation: right-slide-in 1s ease-in-out forwards;
+    }
+
+    @keyframes right-slide-in {
+      0% {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .bottom_slide_in {
+      opacity: 0;
+      transform: translateY(100%);
+      animation: bottom-slide-in 1s ease-in-out forwards;
+    }
+
+    @keyframes bottom-slide-in {
+      0% {
+        opacity: 0;
+        transform: translateY(100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .top_slide_in {
+      opacity: 0;
+      transform: translateY(-100%);
+      animation: top-slide-in 1s ease-in-out forwards;
+    }
+
+    @keyframes top-slide-in {
+      0% {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
     
-    /* ............Single hover animation for interactive elements........ */
+    /* ...hover animation for interactive elements........ */
     button:hover,
     .brand:hover,
     .store_button:hover,
@@ -31,12 +92,24 @@
     .view_button:hover,
     .contact_button:hover,
     .member_button:hover,
-    .send_button:hover,
-    .social_logo:hover {
-        animation: hoverEffect 0.6s ease;
+    .send_button:hover {
+        animation: bounce-effect 0.6s ease;
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     }
+
+    .social_logo:hover,
+    .header_afc_logo:hover,
+    .footer_logo_links img:hover  {
+        animation: bounce-effect 0.6s ease;
+    }
     
+    @keyframes bounce-effect {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+    }
+
+
     /* ....header, margin and shadow-effet...... */
     header {
         background-color: #fff;
@@ -139,7 +212,6 @@
         background-size: cover;
         position: relative;
         padding: 120px 6%;
-
     }
     
     /* ....afc container..... */
@@ -245,7 +317,7 @@
 
     #store {
         max-width: 1200px;
-        padding: 120px 0 70px;
+        padding: 100px 0 70px;
         margin: auto;
         align-items: center;
         text-align: center;
@@ -272,7 +344,7 @@
         }
     }
 
-    .ride_text {
+    .ad_store {
         overflow: hidden;
         position: relative;
         width: 100%;
@@ -286,6 +358,7 @@
         color: #3E3E3E;
         font-size: 20px;
         font-weight: 700;
+        padding-top: 50px;
     }
     
     #store h2 {
@@ -781,6 +854,110 @@
         font-weight: 500;
         line-height: 28px;
     }
+
+    
+    /* ........ticketing......... */
+    .box_ticketing_league {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        justify-content: space-between;
+        background-color: #131c46;
+        text-align: center;
+        padding: 30px;
+        margin: 50px auto;
+        width: 100%;
+        border-radius: 50px;
+    }
+
+    .ticket {
+        width: 360px;
+        padding: 20px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        margin: auto;
+    }
+
+    .match {
+        background-color: #003366;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .match h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .match_date {
+        font-size: 14px;
+        font-style: italic;
+    }
+
+    .ticket_info {
+        margin: 15px 0;
+        font-size: 14px;
+        
+    }
+
+    .ticket_info p {
+        padding: 10px 0;
+    }
+
+    .ticket-code {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .barcode {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .ticket_number {
+        font-weight: 600;
+    }
+
+    /* ........league........ */
+    .league {
+        font-size: 28px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .league_table {
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+        border-radius: 20px;
+        border-collapse: collapse;
+        box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+    }
+
+    .league_table th, .league_table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .league_table th {
+        background-color: #003366;
+        color: white;
+        font-weight: bold;
+    }
+
+    .afc_league_rank {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+    }
+
+
+
     
     /* ........container players........... */
     .box_players {
@@ -789,8 +966,7 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
-        animation: transform;
+
     }
 
     
@@ -838,8 +1014,13 @@
         border-radius: 25px;
         margin-top: 60px;
         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
     }
     
+    .box_players img:hover {
+        transform: translateY(-5px);
+    }
+
     /* .......team's member button....... */
     .member_button {
         border-radius: 50px;
@@ -1068,9 +1249,14 @@
     .footer_logo_links img {
         height: 95px;
         width: 100px;
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
     }
     
-    .social_logo:hover {
+    /* ......scale animation for interative elements....... */
+    .header_afc_logo:hover, 
+    .social_logo:hover, 
+    .footer_logo_links img:hover {
         transform: scale(1.2);
     }
     
