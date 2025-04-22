@@ -7,6 +7,7 @@
   
     body {
         display: 100vh;
+        font-size: 16px;
         font-family: Montserrat, -apple-system, Roboto, Helvetica, sans-serif;
         background-color: #fff;
         padding-top: 20px; /* .........Space for fixed header...... */
@@ -117,6 +118,7 @@
         display: flex;
         width: 100%;
         padding: 0 6%;
+        font-family: 'montserrat-semibold';
         font-size: 18px;
         font-weight: 600;
         justify-content: space-between;
@@ -229,7 +231,8 @@
 
     .intro_afc h1 {
         color: #fff;
-        font-size: 120px;
+        font-family: 'montserrat-extrabold';
+        font-size: 100px;
         font-weight: 800;
         width: 480px;
     }
@@ -237,6 +240,7 @@
 
 
     .intro_afc article{
+        font-family: 'montserrat-semibold';
         font-size: 18px;
         color: #131c46;
         font-weight: 600;
@@ -303,6 +307,7 @@
         box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
         margin-top: -25px;
         padding: 20px;
+        font-family: 'montserrat-semibold';
         font-size: 20px;
         color: #fff;
         font-weight: 600;
@@ -334,7 +339,8 @@
     .scrolling_text {
         white-space: nowrap;
         position: absolute;
-        width: 100%; 
+        width: 100%;
+        font-family: 'montserrat-bold'; 
         font-size: 24px;
         font-weight: bold;
         color: #131c46;
@@ -362,6 +368,7 @@
 
     #store h5 {
         color: #3E3E3E;
+        font-family: 'montserrat-bold';
         font-size: 20px;
         font-weight: 700;
         padding-top: 50px;
@@ -369,6 +376,7 @@
     
     #store h2 {
         color: #131c46;
+        font-family: 'montserrat-extrabold';
         font-size: 64px;
         font-weight: 800;
         margin-top: 25px;
@@ -376,6 +384,7 @@
     
     #store h4 {
         color: #3E3E3E;
+        font-family: 'montserrat-extrabold';
         font-size: 24px;
         font-weight: 800;
         text-align: center;
@@ -418,6 +427,7 @@
     
     .product_name {
         color: #131c46;
+        font-family: 'montserrat-medium';
         font-weight: 600;
         font-size: 16px;
         padding-top: 10px;
@@ -425,6 +435,7 @@
     
     .product_price {
         color: #3E3E3E;
+        font-family: 'montserrat-semibold';
         font-weight: 700;
         padding: 10px;
     }
@@ -436,6 +447,7 @@
         background-color: #131c46;
         box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 10px 20px;
+        font-family: 'montserrat-semibold';
         font-size: 18px;
         color: #fff;
         border: none;
@@ -478,6 +490,7 @@
     
     .brands_collections h3 {
         color: #131c46;
+        font-family: 'montserrat-bold';
         font-size: 40px;
         font-weight: 900;
         text-align: center;
@@ -496,7 +509,6 @@
         justify-content: space-between;
         flex-wrap: wrap;
         width: 100%;
-
     }
     
     .discount_brands_collections:hover {
@@ -511,6 +523,7 @@
     }
     
     .discount_text {
+        font-family: 'montserrat-semibold';
         font-size: 22px;
         font-weight: 600;
         color: #fff;
@@ -522,6 +535,7 @@
         background-color: #fa0909;
         box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 12px 20px;
+        font-family: 'montserrat-semibold';
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
@@ -610,6 +624,7 @@
     
     .brand-name {
         color: #3E3E3E;
+        font-family: 'montserrat-bold';
         font-size: 20px;
         font-weight: 700;
         text-align: center;
@@ -624,6 +639,7 @@
         box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
         z-index: 1;
         padding: 15px 20px;
+        font-family: 'montserrat-semibold';
         font-size: 18px;
         font-weight: 600;
         text-decoration: none;
@@ -644,6 +660,7 @@
     
     .customer_reviews h3 {
         color: #131c46;
+        font-family: 'montserrat-bold';
         font-size: 30px;
         font-weight: 700;
         line-height: 30px;
@@ -661,18 +678,21 @@
     
     .review_content p:nth-child(1) {
         color: #000;
+        font-family: 'montserrat-bold';
         font-size: 20px;
         font-weight: 700;
     }
     
     .review_content p:nth-child(2) {
         font-size: 12px;
+        font-family: 'montserrat-bold';
         font-weight: 700;
         color: #3E3E3E;
         margin-top: 10px;
     }
     
     .review_content p:nth-child(3) {
+        font-family: 'montserrat-medium';
         font-size: 14px;
         font-weight: 500;
         color: #3E3E3E;
@@ -697,6 +717,7 @@
     #services h2 {
         color: #131c46;
         text-align: center;
+        font-family: 'montserrat-extrabold';
         font-size: 64px;
         font-weight: 800;
     }
@@ -725,6 +746,7 @@
     
     .service_content h4 {
         color: #131c46;
+        font-family: 'montserrat-bold';
         font-size: 24px;
         font-weight: 700;
     }
@@ -732,6 +754,7 @@
     .service_content p {
         color: #3E3E3E;
         font-size: 18px;
+        font-family: 'montserrat-medium';
         font-weight: 500;
         line-height: 28px;
         margin-top: 15px;
@@ -758,6 +781,7 @@
         box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
         margin-top: 80px;
         padding: 20px;
+        font-family: 'montserrat-semibold';
         font-size: 20px;
         color: #fff;
         font-weight: 600;
@@ -786,6 +810,7 @@
     #team h2 {
         color: #131c46;
         text-align: center;
+        font-family: 'montserrat-extrabold';
         font-size: 64px;
         font-weight: 800;
         align-self: stretch;
@@ -808,6 +833,7 @@
     
     .box_news h3 {
         color: #fff;
+        font-family: 'montserrat-bold';
         font-size: 32px;
         font-weight: 700;
     }
@@ -845,6 +871,7 @@
     
     .news_content h4 {
         color: #fff;
+        font-family: 'montserrat-bold';
         font-size: 22px;
         font-weight: 700;
     }
@@ -854,6 +881,7 @@
         background-color: #fff;
         margin-top: 10px;
         padding: 15px;
+        font-family: 'montserrat-medium';
         font-size: 18px;
         text-align: justify;
         color: #3E3E3E;
@@ -889,6 +917,7 @@
 
     .ticket h3 {
         color: #fff;
+        font-family: 'montserrat-bold';
         font-size: 32px;
         font-weight: 700;
         margin-bottom: 20px;
@@ -911,6 +940,7 @@
     }
 
     .match h4 {
+        font-family: 'montserrat-bold';
         font-size: 25px;
     }
 
@@ -921,20 +951,16 @@
     }
 
     .match_date {
+        font-family: 'montserrat-italic';
         font-size: 14px;
-        font-style: italic;
     }
 
     .ticket_info p {
+        font-family: 'montserrat-medium';
         font-size: 14px;
         font-weight: 500;
         color: #3E3E3E;
         padding: 5px 0;
-    }
-
-    .ticket-code {
-        margin-top: 10px;
-        font-size: 12px;
     }
 
     .barcode {
@@ -948,7 +974,8 @@
         background-color: #fa0909;
         box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
         padding: 12px 20px;
-        font-size: 18px;
+        font-family: 'montserrat-semibold';
+        font-size: 16px;
         font-weight: 600;
         text-decoration: none;
         border: 0px;
@@ -971,6 +998,7 @@
     
     .league h3 {
         color: #fff;
+        font-family: 'montserrat-bold';
         font-size: 32px;
         font-weight: 700;
         padding-top: 20px;
@@ -981,6 +1009,7 @@
         width: 100%;
         background-color: #f9f9f9;
         color: #3E3E3E;
+        font-family: 'montserrat-medium';
         font-weight: 500;
         margin: auto;
         border-radius: 25px;
@@ -996,7 +1025,7 @@
     .league_table th {
         background-color: #003366;
         color: #fff;
-        font-weight: bold;
+        font-family: 'montserrat-bold';
     }
 
     .league_table th:last-child {
@@ -1010,7 +1039,7 @@
     .afc_league_ranking {
         background-color: red;
         color: #fff;
-        font-weight: bold;
+        font-family: 'montserrat-bold';
     }
 
 
@@ -1030,9 +1059,9 @@
     .box_players h3 {
         color: #131c46;
         text-align: center;
+        font-family: 'montserrat-bold';
         font-size: 32px;
         font-weight: 700;
-        line-height: 1;
     }
     
     /* .......players list.......... */
@@ -1055,6 +1084,7 @@
         border-radius: 25px;
         background-color: #131c46;
         padding: 20px;
+        font-family: 'montserrat-medium';
         font-size: 16px;
         color: #fff;
         font-weight: 500;
@@ -1087,6 +1117,7 @@
         margin-bottom: 50px;
         min-height: 58px;
         padding: 20px;
+        font-family: 'montserrat-semibold';
         font-size: 20px;
         color: #fff;
         font-weight: 600;
@@ -1114,6 +1145,7 @@
     
     #contact h2 {
         color: #fff;
+        font-family: 'montserrat-extrabold';
         font-size: 40px;
         font-weight: 800;
         text-align: center;
@@ -1135,6 +1167,7 @@
         max-width: 100%;
         flex-direction: column;
         align-items: stretch;
+        font-family: 'montserrat-bold';
         font-size: 20px;
         color: #3f3e3e;
         font-weight: 600;
@@ -1154,6 +1187,7 @@
     .message textarea {
         border-radius: 25px;
         background-color: #fff;
+        font-family: 'montserrat-medium';
         font-size: 18px;
         height: 188px;
         border: none;
@@ -1182,6 +1216,7 @@
     .email input {
         border-radius: 20px 0 0 20px;
         color: #3f3e3e;
+        font-family: 'montserrat-medium';
         font-size: 18px;
         font-weight: 400;
         margin: auto 0;
@@ -1200,6 +1235,7 @@
         padding: 9px 20px;
         font-size: 20px;
         color: #fff;
+        font-family: 'montserrat-bold';
         font-weight: 700;
         border: none;
         cursor: pointer;
@@ -1237,6 +1273,7 @@
     
     .footer_menu h3 {
         color: #fff;
+        font-family: 'montserrat-bold';
         font-size: 20px;
         font-weight: 700;
         text-align: start;
@@ -1245,6 +1282,7 @@
     .footer_links {
         list-style: none;
         color: #d9d9d9;
+        font-family: 'montserrat-regular';
         font-size: 17px;
         font-weight: 400;
         line-height: 30px;
@@ -1263,6 +1301,7 @@
     
     .footer_text {
         color: #d9d9d9;
+        font-family: 'montserrat-regular';
         font-size: 17px;
         font-weight: 400;
         line-height: 30px;
@@ -1320,6 +1359,7 @@
     
     .rights {
         color: #d9d9d9;
+        font-family: 'montserrat-regular';
         font-size: 15px;
         font-weight: 400;
         text-align: center;
@@ -1639,7 +1679,7 @@
             width: 310px;
         }
         
-        .intro_afc p{
+        .intro_afc p {
             background-color: #fff;
             opacity: 85%;
             border-radius: 20px;
