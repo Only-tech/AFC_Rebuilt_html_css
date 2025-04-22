@@ -192,7 +192,6 @@ Pas de licence spécifique pour le moment.
 
 
 
-Here is the English translation of your README:
 
 ---
 
