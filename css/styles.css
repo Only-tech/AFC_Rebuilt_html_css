@@ -416,7 +416,6 @@
 
     /* ......product card animation......... */
     .product_card:hover {
-        transform: translateY(-15px);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         
     }
@@ -1802,6 +1801,26 @@
             animation: animation_product_card_3 19.5s 0s infinite;
         }
 
+        .box_products .product_card:nth-child(4) {
+            animation: animation_product_card_4 19.5s 0s infinite;
+        }
+
+        .box_products .product_card:nth-child(5) {
+            animation: animation_product_card_5 19.5s 0s infinite;
+        }
+
+        .box_products .product_card:nth-child(6) {
+            animation: animation_product_card_6 19.5s 0s infinite;
+        }
+
+        .box_products .product_card:nth-child(7) {
+            animation: animation_product_card_7 19.5s 0s infinite;
+        }
+
+        .box_products .product_card:nth-child(8) {
+            animation: animation_product_card_8 19.5s 0s infinite;
+        }
+
 
 
         /*..........product_card diaporama..........*/
@@ -1884,6 +1903,151 @@
             97.75% {
                 opacity: 1;
                 transform: translateX(0);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes animation_product_card_4 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            2.25% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            33% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            35.25% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes animation_product_card_5 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            35.25% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            37.5% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            66% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            68.25% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes animation_product_card_6 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            68.25% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            70.5% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            97.75% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes animation_product_card_7 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            2.25% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            33% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            35.25% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes animation_product_card_8 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            35.25% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            37.5% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            66% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            68.25% {
+                opacity: 0;
+                transform: translateX(-50%);
             }
 
             100% {
