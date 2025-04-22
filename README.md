@@ -201,3 +201,196 @@ Pas de licence spécifique pour le moment.
 
 
 ---
+
+# Avenir Football Club
+
+## Description
+The **Avenir Football Club** project reflects the identity of the fictional football club, Avenir Football Club, showcasing its values, services, and its ambition to unite the community. The website includes an online store, a regional league ranking, ticketing, team and service presentations, all within an interactive, modern, and accessible format.
+
+### Origins and Evolution
+Initially, the project consisted of a landing page dedicated to promoting a specific club-related product. Over time, it evolved into a comprehensive platform providing a digital ecosystem for all club fans and members. This transformation required:
+- Reorganizing files and content.
+- Adding extended functionalities such as services, news, regional rankings, ticketing, and multilingual support.
+- Special focus on responsive design to ensure an optimal user experience across all platforms.
+
+---
+
+## Key Features
+### Website Sections
+1. **Introduction or About Page**:
+   - Club introduction and value presentation.
+   - Call-to-action to join the community (redirects to contact at the moment).
+
+2. **Store**:
+   - Official club merchandise (jerseys, accessories, cleats).
+   - Dynamic promotions with engaging animations.
+   - Secure payments via partners like PayPal and Mastercard.
+
+3. **Regional League Ranking**:
+   - Interactive table displaying positions, statistics, and team performances.
+
+4. **Ticketing**:
+   - Simple and quick ticket reservations for matches.
+   - Venue details, seat categories, and pricing.
+
+5. **Team and Players**:
+   - Team profile and player presentation with their roles.
+   - Integration of a gallery displaying team images and news.
+
+6. **Services**:
+   - Training and coaching.
+   - Medical support and nutritional advice.
+   - Available infrastructures.
+   - Administrative management and community activities.
+
+7. **Contact and Footer**:
+   - Contact form for leaving messages or inquiries.
+   - Links to social media and legal mentions.
+
+### Multilingual Content
+The website offers versions adapted to several languages for an international audience:
+- French
+- English
+- Spanish
+- Italian
+- Ukrainian
+- Japanese
+
+Each language has its own dedicated HTML structure, accompanied by unified CSS styles.
+
+---
+
+## Installation
+### Steps to Launch the Project Locally
+1. **Clone this repository via Git**:
+   ```bash
+   git clone <https://github.com/Only-tech/AFC_Rebuilt_html_css.git>
+   ```
+2. **Open the file** `index.html` in your browser to view the main version (French).
+3. For other languages:
+   - Access the files `en.html`, `es.html`, `it.html`, `ukr.html`, `jpn.html`, or navigate between pages via **Languages** in the footer.
+   - Universal styles are applied through `css/styles.css`.
+
+### File Structure
+Here's a simplified view of the project organization:
+```
+/
+├── index.html (Main page in French)
+├── en.html (English version)
+├── es.html (Spanish version)
+├── it.html (Italian version)
+├── ukr.html (Ukrainian version)
+├── jpn.html (Japanese version)
+├── css/
+│   └── styles.css (Global styles for all languages)
+│   └── fonts.css (Global font styles)
+├── img/ (Images used on the website)
+```
+
+---
+
+## Technologies Used
+### Development
+- **HTML**: Creation of multilingual pages.
+- **CSS**: Modern styles and animations (hover, bounce, slide-in).
+- **Google Fonts**: Integration of the Montserrat font for visual uniformity.
+
+### Design
+- **Figma**: Visual design tool used for structuring and creating an immersive prototype, [accessible here](https://www.figma.com/design/zRXORc8Cqby9iMO3t7FWcB/Avenir-Football-Club?node-id=0-1&p=f&t=BrUX2Y6FPWfHDFhZ-0).
+
+### Other Graphic and Design Tools 
+- **Paint**: Used for resizing images to adapt visuals to the site's requirements.
+- **PosterMyWall**: Creation of club logos and customization of jerseys, integrating unique visual elements.
+- **Samsung Studio**: Production of photos for partner brands.
+
+### Responsive Design
+The site is optimized to offer a seamless user experience:
+- **Desktop**: Rich animations and well-defined spaces.
+- **Tablets and Mobile Devices**:
+  - Burger menu for smaller screens.
+  - Automatic adjustments of margins, font sizes, and images.
+
+---
+
+## Code Snippets
+### Example of CSS Styles for Animations
+```css
+/* Slide-in Animation */
+@keyframes left-slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.left_slide_in {
+  animation: left-slide-in 1s ease-in-out forwards;
+}
+```
+
+### Example of Multilingual Management
+```html
+<!DOCTYPE html>
+<html lang="fr"> <!-- French -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avenir Football Club</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Avenir Football Club</h1>
+</body>
+</html>
+```
+
+For the Ukrainian version (`ukr.html`):
+```html
+<!DOCTYPE html>
+<html lang="uk"> <!-- Ukrainian -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Футбольний Клуб Авенір</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Футбольний Клуб Авенір</h1>
+</body>
+</html>
+```
+
+Here’s the menu allowing users to choose the site’s language:
+
+```html
+<nav>
+    <ul>
+        <li><a href="index.html">Français</a></li>
+        <li><a href="en.html">English</a></li>
+        <li><a href="es.html">Español</a></li>
+        <li><a href="it.html">Italiano</a></li>
+        <li><a href="ukr.html">Українська</a></li>
+        <li><a href="jpn.html">日本語</a></li>
+    </ul>
+</nav>
+```
+
+---
+
+## Credits
+- **Developer**: Cedrick F.
+- **Design**: Cedrick F, via Figma.
+- **Contributions**:
+  I encountered difficulties translating the site properly into other languages, so contributions are welcome.
+
+---
+
+## License
+No specific license at the moment.
+
+---
+

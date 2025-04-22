@@ -1741,6 +1741,129 @@
             transform: none;        
         }
 
+
+        .box_products {
+            position: relative;
+            margin: 50px auto 0;
+            height: 780px;
+            width: 320px;
+            overflow: hidden;
+        }
+
+        .product_card {
+            display: inline-block;
+            width: 280px;
+            height: 360px;
+            position: absolute;
+            opacity: 0;
+        }
+
+        
+        .box_products .product_card:nth-child(1) {
+            animation: animation_product_card_1 19.5s 0s infinite;
+        }
+
+        .box_products .product_card:nth-child(2) {
+            animation: animation_product_card_2 19.5s 0s infinite;
+        }
+
+        .box_products .product_card:nth-child(3) {
+            animation: animation_product_card_3 19.5s 0s infinite;
+        }
+
+
+
+        /*..........product_card diaporama..........*/
+
+        @keyframes animation_product_card_1 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            2.25% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            33% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            35.25% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes animation_product_card_2 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            35.25% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            37.5% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            66% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            68.25% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+        @keyframes animation_product_card_3 {
+            0% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            68.25% {
+                opacity: 0;
+                transform: translateX(50%);
+            }
+
+            70.5% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            97.75% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateX(-50%);
+            }
+        }
+
+
+
+
         /* .......brands collections....... */
         .brands_collections {
             width: 100%;
