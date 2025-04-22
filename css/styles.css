@@ -1334,7 +1334,7 @@
         
         /* .......afc background... */
         #afc_about {
-            padding: 80px 6%;
+            padding: 80px ;
 
         }
 
@@ -1412,9 +1412,12 @@
         /* .............afc about section............... */
       
         #afc_about {
-            padding: 80px 6%;
             text-align: center;
-            margin: auto;
+        }
+
+        .intro_afc {    
+            justify-content: center;
+            margin: 0 auto;
 
         }
 
@@ -1423,7 +1426,8 @@
         }
         
         .intro_afc article{
-            margin: auto;
+            object-position: center;
+            margin: 0 auto;
         }
         
         /* .......intro afc section button with animation........ */
@@ -1592,18 +1596,31 @@
 
         header {
             padding: 0 20px;
-            gap: 10px;
+            font-size: 15px;
+            justify-content: space-between;
+            
+        }
+
+        .header_afc_logo {
+            height: 50px;
+            width: 70px;;
+        }
+
+        /* .....header store button........ */
+        .store_button {
+            padding: 10px 15px;
         }
 
         /* ....navigation menu...... */
         nav {
             height: 50px;
             justify-content: space-between;
+            gap: none;
         }
 
         nav ul {
             align-items: start;
-            gap: 10px;
+            gap: none;
         }
 
 
@@ -1884,17 +1901,19 @@
 
         /* ........regional league ranking table........ */       
         .league {
-            width: 344px;
+            max-width: 656px;
+            width: 100%;
             margin: 0 auto;
         }
         
         .league h3 {
             font-size: 32px;
             width: 320px;
+            margin: 0 auto 20px;
         }
 
         .league_table {
-            width: 344px;
+            width: 100%;
             font-size: 12px;
             margin: 0 auto;
             border-radius: 0px;
