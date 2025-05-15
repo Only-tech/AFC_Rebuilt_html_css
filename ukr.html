@@ -10,8 +10,10 @@
 <body>
 
     <header>
-        <div class="burger">
-            <img src="img/burger_icon.svg" alt="Menu">
+        <div class="burger_menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
         <a href="#"><img src="img/logo_AFC.png" alt="Avenir Football Club" class="header_afc_logo"></a>
         <nav>
@@ -568,5 +570,12 @@
 
         <p class="rights">Правові Відомості &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; Персональні Дані &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; Умови &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; ©АФК_від_Седріка</p>
     </footer>
+
+    <script>
+        // display burger menu
+        function toggleMenu() {
+            document.querySelector("header").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>

@@ -10,8 +10,10 @@
 <body>
 
     <header>
-        <div class="burger">
-            <img src="img/burger_icon.svg" alt="Menu">
+        <div class="burger_menu" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
         <a href="#"><img src="img/logo_AFC.png" alt="未来フットボールクラブ" class="header_afc_logo"></a>
         <nav>
@@ -562,5 +564,12 @@
 
         <p class="rights">法的通知 &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; 個人情報 &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; 利用規約 &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; ©エーエフシー_by_セドリック</p>
     </footer>
+
+    <script>
+        // display burger menu
+        function toggleMenu() {
+            document.querySelector("header").classList.toggle("active");
+        }
+    </script>
 </body>
 </html>

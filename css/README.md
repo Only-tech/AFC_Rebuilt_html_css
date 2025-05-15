@@ -104,7 +104,7 @@ Voici une vue simplifiée de l'organisation du projet :
 Le site est optimisé pour offrir une expérience utilisateur fluide :
 - **Desktop** : Animations riches et espaces bien définis.
 - **Tablettes et mobiles** :
-  - Menu burger pour les petits écrans.
+  - Menu burger_menu pour les petits écrans.
   - Ajustements automatiques des marges, tailles de police, et images.
 
 ---
@@ -307,7 +307,7 @@ Here's a simplified view of the project organization:
 The site is optimized to offer a seamless user experience:
 - **Desktop**: Rich animations and well-defined spaces.
 - **Tablets and Mobile Devices**:
-  - Burger menu for smaller screens.
+  - burger_menu menu for smaller screens.
   - Automatic adjustments of margins, font sizes, and images.
 
 ---
