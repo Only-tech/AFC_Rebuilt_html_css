@@ -8,493 +8,495 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="burger_menu" onclick="toggleMenu()">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <a href="#"><img src="img/logo_AFC.png" alt="Avenir Football Club" class="header_afc_logo"></a>
-        <nav>
-            <a href="#store" class="store_button">Boutique</a>
-            <ul class="menu_cell">
-                <li><a href="#services" class="nav_link">Services</a></li>
-                <li><a href="#team" class="nav_link">Equipe</a></li>
-                <li><a href="#contact" class="nav_link">Contact</a></li>
-            </ul>
-            <a href="#"><img src="img/logo_shopping_cart.png" alt="Menu" class="cart_logo"></a>
-        </nav>
-    </header>
+    <main>
+        <header>
+            <div class="burger_menu" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <a href="#"><img src="img/logo_AFC.png" alt="Avenir Football Club" class="header_afc_logo"></a>
+            <nav>
+                <a href="#store" class="store_button">Boutique</a>
+                <ul class="menu_cell">
+                    <li><a href="#services" class="nav_link">Services</a></li>
+                    <li><a href="#team" class="nav_link">Equipe</a></li>
+                    <li><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+                <a href="#" class="cart"><img src="img/logo_shopping_cart.png" alt="Menu" class="cart_logo"><span id="shopping-cart-items" class="cart_add">0</span></a>
+            </nav>
+        </header>
 
-    <section id="afc_about">
-        <div class="intro_afc">
-            <h1 class="top_slide_in">Avenir Football Club</h1>
-            <article class="bottom_slide_in">
-                <p class="right_slide_in">
-                    AFC est bien plus qu'un simple club de football, c'est une famille, un
-                    lieu où se mêlent passion, camaraderie et esprit sportif.
-                </p>
-                <p class="left_slide_in">
-                    Depuis sa création en 1999, notre histoire est tissée de moments forts
-                    qui ont forgé notre identité. Nous sommes fiers de nos valeurs : le
-                    fair-play, la solidarité et le respect de chacun.
-                </p>
-                <p>
-                    Avec le soutien indéfectible de nos supporters, nous visons toujours
-                    plus haut, avec l'ambition de former les champions de demain tout en
-                    offrant du spectacle à tous les amateurs de football.
-                </p>
-            </article>
-        </div>
-        <a href="#contact" class="bottom_slide_in"><button class="join_us_button">Rejoignez-nous</button></a>
-    </section>
-
-    <!--------Store section-------->
-    <section id="store">
-        <div class="ad_store">
-            <article class="scrolling_text">🎁 🎁 Avantages Membres -10% sur tous vos achats 🎁 🎁  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-                🚚 🚚 Livraison Express sous 24h (gratuite) 🚚 🚚
-            </article>
-        </div>
-
-        <h5 class="left_slide_in">Portez les couleurs de votre club, vibrez avec passion</h5>
-        <h2 class="top_slide_in">Explorez notre boutique</h2>
-        <h4 class="right_slide_in">Authenticité garantie</h4>
-
-        <div class="box_products">
-            <article class="product_card">
-                <figure class="left_slide_in">
-                    <img src="img/maillot_afc_pro2.png" alt="Maillot AFC PRO Second" class="top_slide_in">
-                    <figcaption>
-                        <p class="product_name">Maillot AFC PRO Second</p>
-                        <p class="product_price">75,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="product_card">
-                <figure class="left_slide_in">
-                    <img src="img/maillot_afc_u20.jpg" alt="Maillot AFC U20" class="top_slide_in">
-                    <figcaption>
-                        <p class="product_name">Maillot AFC U20</p>
-                        <p class="product_price">69,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="product_card">
-                <figure class="right_slide_in">
-                    <img src="img/maillot_afc_u15.png" alt="Maillot AFC U15" class="top_slide_in">
-                    <figcaption>
-                        <p class="product_name">Maillot AFC U15</p>
-                        <p class="product_price">39,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="product_card">
-                <figure class="right_slide_in">
-                    <img src="img/maillot_afc_pro.jpg" alt="Maillot AFC PRO" class="top_slide_in">
-                    <figcaption>
-                        <p class="product_name">Maillot AFC PRO</p>
-                        <p class="product_price">79,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="product_card ">
-                <figure class="bottom_slide_in">
-                    <img src="img/short_afc_pro2.png" alt="Short AFC PRO Second">
-                    <figcaption>
-                        <p class="product_name">Short AFC PRO Second</p>
-                        <p class="product_price">49,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="product_card">
-                <figure class="bottom_slide_in">
-                    <img src="img/chaussettes_afc_all.png" alt="Chaussettes AFC ALL">
-                    <figcaption>
-                        <p class="product_name">Chaussettes AFC ALL</p>
-                        <p class="product_price">19,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="product_card">
-                <figure class="bottom_slide_in">
-                    <img src="img/short_afc_pro_all.png" alt="Short AFC PRO ALL">
-                    <figcaption>
-                        <p class="product_name">Short AFC PRO ALL</p>
-                        <p class="product_price">45,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-
-            <article class="product_card">
-                <figure class="bottom_slide_in">
-                    <img src="img/maillot_afc_u08.png" alt="Maillot AFC U08">
-                    <figcaption>
-                        <p class="product_name">Maillot AFC U08</p>
-                        <p class="product_price">29,99 €</p>
-                        <button class="add_to_cart_button">Ajouter au panier</button>
-                    </figcaption>
-                </figure>
-            </article>
-        </div>
-
-        <div class="brands_collections">
-            <h3>Nos collections crampons</h3>
-
-            <article class="discount_brands_collections">
-                <figure>
-                    <p class="discount_text left_slide_in">Jusqu'à -30% sur la collection crampons</p>
-                    <a href="#cleats"><button class="discount_button">J'en profite</button></a>
-                </figure>
-                <img src="img/cheap collection.png" alt="Discount cleats" class="right_slide_in">
-            </article>
-
-            <div class="box_brands" id="cleats">
-                <article class="brand">
-                    <p class="brand-name">Nike</p>
-                    <a href="https://www.nike.com/fr/w/football-chaussures-1gdj0zy7ok" class="view_button">Voir</a>
-                </article>
-
-                <article class="brand">
-                    <p class="brand-name">Adidas</p>
-                    <a href="https://www.adidas.fr/chaussures-football-elite_level-hommes" class="view_button">Voir</a>
-                </article>
-
-                <article class="brand">
-                    <p class="brand-name">Puma</p>
-                    <a href="https://eu.puma.com/fr/fr/homme/chaussures/football" class="view_button">Voir</a>
+        <section id="afc_about">
+            <div class="intro_afc">
+                <h1 class="top_slide_in">Avenir Football Club</h1>
+                <article class="bottom_slide_in">
+                    <p class="right_slide_in">
+                        AFC est bien plus qu'un simple club de football, c'est une famille, un
+                        lieu où se mêlent passion, camaraderie et esprit sportif.
+                    </p>
+                    <p class="left_slide_in">
+                        Depuis sa création en 1999, notre histoire est tissée de moments forts
+                        qui ont forgé notre identité. Nous sommes fiers de nos valeurs : le
+                        fair-play, la solidarité et le respect de chacun.
+                    </p>
+                    <p>
+                        Avec le soutien indéfectible de nos supporters, nous visons toujours
+                        plus haut, avec l'ambition de former les champions de demain tout en
+                        offrant du spectacle à tous les amateurs de football.
+                    </p>
                 </article>
             </div>
-        </div>
+            <a href="#contact" class="bottom_slide_in"><button class="join_us_button">Rejoignez-nous</button></a>
+        </section>
 
-        <div class="customer_reviews">
-            <h3>Commentaires clients</h3>
-            <article class="review">
+        <!--------Store section-------->
+        <section id="store">
+            <div class="ad_store">
+                <article class="scrolling_text">🎁 🎁 Avantages Membres -10% sur tous vos achats 🎁 🎁  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                    🚚 🚚 Livraison Express sous 24h (gratuite) 🚚 🚚
+                </article>
+            </div>
+
+            <h5 class="left_slide_in">Portez les couleurs de votre club, vibrez avec passion</h5>
+            <h2 class="top_slide_in">Explorez notre boutique</h2>
+            <h4 class="right_slide_in">Authenticité garantie</h4>
+
+            <div class="box_products">
+                <article class="product_card">
+                    <figure class="left_slide_in">
+                        <img src="img/maillot_afc_pro2.png" alt="Maillot AFC PRO Second" class="top_slide_in">
+                        <figcaption>
+                            <p class="product_name">Maillot AFC PRO Second</p>
+                            <p class="product_price">75,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="product_card">
+                    <figure class="left_slide_in">
+                        <img src="img/maillot_afc_u20.jpg" alt="Maillot AFC U20" class="top_slide_in">
+                        <figcaption>
+                            <p class="product_name">Maillot AFC U20</p>
+                            <p class="product_price">69,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="product_card">
+                    <figure class="right_slide_in">
+                        <img src="img/maillot_afc_u15.png" alt="Maillot AFC U15" class="top_slide_in">
+                        <figcaption>
+                            <p class="product_name">Maillot AFC U15</p>
+                            <p class="product_price">39,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="product_card">
+                    <figure class="right_slide_in">
+                        <img src="img/maillot_afc_pro.jpg" alt="Maillot AFC PRO" class="top_slide_in">
+                        <figcaption>
+                            <p class="product_name">Maillot AFC PRO</p>
+                            <p class="product_price">79,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="product_card ">
+                    <figure class="bottom_slide_in">
+                        <img src="img/short_afc_pro2.png" alt="Short AFC PRO Second">
+                        <figcaption>
+                            <p class="product_name">Short AFC PRO Second</p>
+                            <p class="product_price">49,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="product_card">
+                    <figure class="bottom_slide_in">
+                        <img src="img/chaussettes_afc_all.png" alt="Chaussettes AFC ALL">
+                        <figcaption>
+                            <p class="product_name">Chaussettes AFC ALL</p>
+                            <p class="product_price">19,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="product_card">
+                    <figure class="bottom_slide_in">
+                        <img src="img/short_afc_pro_all.png" alt="Short AFC PRO ALL">
+                        <figcaption>
+                            <p class="product_name">Short AFC PRO ALL</p>
+                            <p class="product_price">45,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+
+                <article class="product_card">
+                    <figure class="bottom_slide_in">
+                        <img src="img/maillot_afc_u08.png" alt="Maillot AFC U08">
+                        <figcaption>
+                            <p class="product_name">Maillot AFC U08</p>
+                            <p class="product_price">29,99 €</p>
+                            <button class="add_to_cart_button">Ajouter au panier</button>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+
+            <div class="brands_collections">
+                <h3>Nos collections crampons</h3>
+
+                <article class="discount_brands_collections">
+                    <figure>
+                        <p class="discount_text left_slide_in">Jusqu'à -30% sur la collection crampons</p>
+                        <a href="#cleats"><button class="discount_button">J'en profite</button></a>
+                    </figure>
+                    <img src="img/cheap collection.png" alt="Discount cleats" class="right_slide_in">
+                </article>
+
+                <div class="box_brands" id="cleats">
+                    <article class="brand">
+                        <p class="brand-name">Nike</p>
+                        <a href="https://www.nike.com/fr/w/football-chaussures-1gdj0zy7ok" class="view_button">Voir</a>
+                    </article>
+
+                    <article class="brand">
+                        <p class="brand-name">Adidas</p>
+                        <a href="https://www.adidas.fr/chaussures-football-elite_level-hommes" class="view_button">Voir</a>
+                    </article>
+
+                    <article class="brand">
+                        <p class="brand-name">Puma</p>
+                        <a href="https://eu.puma.com/fr/fr/homme/chaussures/football" class="view_button">Voir</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="customer_reviews">
+                <h3>Commentaires clients</h3>
+                <article class="review">
+                    <figure>
+                    <figcaption class="review_content">
+                        <p>Yannick R. ⭐⭐⭐⭐⭐</p>
+                        <p>Achat Maillot AFC U15, le 05/04/2025</p>
+                        <p>Très satisfait de mon achat ! Le maillot est de super qualité, livraison rapide. Je recommande !</p>
+                    </figcaption>
+                    <img src="img/maillot_afc_u15.png" alt="Product review">
+                    </figure>
+                </article>
+
+                <article class="review">
+                    <figure>
+                    <figcaption class="review_content">
+                        <p>Adeline B. ⭐⭐⭐⭐</p>
+                        <p>Achat Maillot AFC PRO Second, le 05/04/2025</p>
+                        <p>Taille impeccable et tissu confortable. Je l'ai acheté en cadeau pour mon fils. Je recommande sans hésiter !</p>
+                    </figcaption>
+                    <img src="img/maillot_afc_pro2.png" alt="Product review">
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Nos services</h2>
+
+            <article class="service">
                 <figure>
-                <figcaption class="review_content">
-                    <p>Yannick R. ⭐⭐⭐⭐⭐</p>
-                    <p>Achat Maillot AFC U15, le 05/04/2025</p>
-                    <p>Très satisfait de mon achat ! Le maillot est de super qualité, livraison rapide. Je recommande !</p>
-                </figcaption>
-                <img src="img/maillot_afc_u15.png" alt="Product review">
-                </figure>
-            </article>
-
-            <article class="review">
-                <figure>
-                <figcaption class="review_content">
-                    <p>Adeline B. ⭐⭐⭐⭐</p>
-                    <p>Achat Maillot AFC PRO Second, le 05/04/2025</p>
-                    <p>Taille impeccable et tissu confortable. Je l'ai acheté en cadeau pour mon fils. Je recommande sans hésiter !</p>
-                </figcaption>
-                <img src="img/maillot_afc_pro2.png" alt="Product review">
-                </figure>
-            </article>
-        </div>
-    </section>
-
-    <section id="services">
-        <h2>Nos services</h2>
-
-        <article class="service">
-            <figure>
-                <figcaption class="service_content">
-                    <h4>Formation et entraînement</h4>
-                    <p>
-                        Encadrement des joueurs de tous âges et niveaux. <br> Développement des
-                        compétences techniques et tactiques, préparation physique.
-                    </p>
-                </figcaption>
-                <img title="Entrainement quotidien" src="img/services_training_illustration.jpg" alt="Training service">
-            </figure>
-        </article>
-
-        <article class="service">
-            <figure>
-                <img title="Compétition régionale" src="img/services_administrative_illustration.png" alt="Administrative service">
-                <figcaption class="service_content">
-                    <h4>Administratif et communautaire</h4>
-                    <p>
-                        Gestion des licences<br>
-                        Organisation des compétitions<br>
-                        Réglements et affiliations aux fédérations<br>
-                        Rencontres avec les supporters<br>
-                        Actions sociales et éducatives
-                    </p>
-                </figcaption>
-            </figure>
-        </article>
-
-        <article class="service">
-            <figure>
-                <figcaption class="service_content">
-                    <h4>Médical et réhabilitation</h4>
-                    <p>
-                        Soins, rééducation, conseils nutritionnels et
-                        préparation mentale
-                    </p>
-                </figcaption>
-                <img src="img/services_health_illustration.png" alt="Medical service">
-            </figure>
-        </article>
-
-        <article class="service">
-            <figure>
-                <figcaption class="service_content">
-                    <h4>Infrastructures et marketing</h4>
-                    <p>
-                        Mise à disposition de terrains, gymnases et autres installations pour
-                        les joueurs et les membres
-                    </p>
-                </figcaption>
-                <img title="Nièvre stadium" src="img/services_infrastructure_illustration.jpg" alt="Infrastructure service">
-            </figure>
-        </article>
-        <article class="service">
-            <a href="#contact"><button class="contact_button">Contactez-nous</button></a>
-        </article>
-    </section>
-
-    <section id="team">
-        <h2>AFC Team</h2>
-
-        <div class="box_news">
-            <h3>Actualités</h3>
-
-            <article class="news">
-                <figure>
-                    <img title="Match AFC - NFC" src="img/news1_illustration.png" alt="Match AFC - NFC">
-                    <figcaption class="news_content">
-                        <h4>AFC crée la sensation en s'imposant face au NFC</h4>
+                    <figcaption class="service_content">
+                        <h4>Formation et entraînement</h4>
                         <p>
-                        Dans un match qui s'annonçait très compliqué, AFC a réalisé une
-                        performance exceptionnelle en s'imposant sur le score de 2-1 face à
-                        NFC, leader du championnat Nivernais. Grâce à un but magnifique
-                        d'Antoinne Lefèvre, AFC signe sa troisième victoire consécutive et
-                        se rapproche de la tête de liste du championnat.
+                            Encadrement des joueurs de tous âges et niveaux. <br> Développement des
+                            compétences techniques et tactiques, préparation physique.
+                        </p>
+                    </figcaption>
+                    <img title="Entrainement quotidien" src="img/services_training_illustration.jpg" alt="Training service">
+                </figure>
+            </article>
+
+            <article class="service">
+                <figure>
+                    <img title="Compétition régionale" src="img/services_administrative_illustration.png" alt="Administrative service">
+                    <figcaption class="service_content">
+                        <h4>Administratif et communautaire</h4>
+                        <p>
+                            Gestion des licences<br>
+                            Organisation des compétitions<br>
+                            Réglements et affiliations aux fédérations<br>
+                            Rencontres avec les supporters<br>
+                            Actions sociales et éducatives
                         </p>
                     </figcaption>
                 </figure>
             </article>
 
-            <article class="news">
+            <article class="service">
                 <figure>
-                    <figcaption class="news_content">
-                        <h4>AFC se renforce avec l'arrivée de Roger Hugues</h4>
+                    <figcaption class="service_content">
+                        <h4>Médical et réhabilitation</h4>
                         <p>
-                            Nous sommes heureux d'annoncer la signature de Roger Hugues, un
-                            milieu de terrain de 19 ans en provenance de Toulouse Club. Ce jeune
-                            talent, réputé pour sa vision du jeu et sa technique, apportera un
-                            plus indéniable à l'effectif de Martin LeNevers (Coach AFC).
+                            Soins, rééducation, conseils nutritionnels et
+                            préparation mentale
                         </p>
                     </figcaption>
-                    <img title="Roger en action" src="img/news2_illustration.jpg" alt="Roger en action">
+                    <img src="img/services_health_illustration.png" alt="Medical service">
                 </figure>
             </article>
-        </div>
 
-        <div class="box_ticketing_league" id="ticketing">
-            <article class="ticket">
-                <h3>Billetterie</h3>
+            <article class="service">
                 <figure>
-                    <figcaption class="match">
-                        <h4>Avenir FC vs Nièvre FC</h4>
-                        <img src="img/afc_vs_nfc_logo.png" alt="">
-                        <p class="match_date">Samedi 25 Mai 2025 - 18h00</p>
+                    <figcaption class="service_content">
+                        <h4>Infrastructures et marketing</h4>
+                        <p>
+                            Mise à disposition de terrains, gymnases et autres installations pour
+                            les joueurs et les membres
+                        </p>
                     </figcaption>
-
-                    <figcaption class="ticket_info">
-                        <p><strong>Lieu :</strong> Stade Municipal, Nevers</p>
-                        <p><strong>Catégorie :</strong> VIP</p>
-                        <p><strong>Prix :</strong> €45</p>
-                        <p><strong>Numéro de siège :</strong> Bloc C - Rang 5 - Place 4</p>
-                    </figcaption>
-
-                    <figcaption class="ticket_code">
-                        <p class="barcode">█████████████████████</p>
-                        <a href="#ticketing"><button class="ticket_button">Réserve ta place maintenant</button></a>
-                    </figcaption>
+                    <img title="Nièvre stadium" src="img/services_infrastructure_illustration.jpg" alt="Infrastructure service">
                 </figure>
             </article>
-        
-            <article class="league">
-                <h3>Classement en ligue régionale</h3>
-                <table class="league_table">
-                    <thead>
-                        <tr>
-                            <th>Position</th>
-                            <th>Équipe</th>
-                            <th>J</th>
-                            <th>V</th>
-                            <th>N</th>
-                            <th>D</th>
-                            <th>BP</th>
-                            <th>BC</th>
-                            <th>DF</th>
-                            <th>Pts</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Nièvre FC</td>
-                            <td>20</td>
-                            <td>16</td>
-                            <td>3</td>
-                            <td>1</td>
-                            <td>45</td>
-                            <td>14</td>
-                            <td>+31</td>
-                            <td>51</td>
-                        </tr>
-                        <tr class="afc_league_ranking">
-                            <td>2</td>
-                            <td>Avenir FC</td>
-                            <td>20</td>
-                            <td>15</td>
-                            <td>4</td>
-                            <td>1</td>
-                            <td>41</td>
-                            <td>18</td>
-                            <td>+23</td>
-                            <td>49</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Nevers Sport</td>
-                            <td>20</td>
-                            <td>14</td>
-                            <td>5</td>
-                            <td>1</td>
-                            <td>37</td>
-                            <td>20</td>
-                            <td>+17</td>
-                            <td>47</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Orléans FC</td>
-                            <td>20</td>
-                            <td>12</td>
-                            <td>6</td>
-                            <td>2</td>
-                            <td>33</td>
-                            <td>21</td>
-                            <td>+12</td>
-                            <td>42</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>AS Montargis</td>
-                            <td>20</td>
-                            <td>10</td>
-                            <td>8</td>
-                            <td>2</td>
-                            <td>32</td>
-                            <td>25</td>
-                            <td>+7</td>
-                            <td>38</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Clermont Foot</td>
-                            <td>20</td>
-                            <td>9</td>
-                            <td>6</td>
-                            <td>5</td>
-                            <td>28</td>
-                            <td>22</td>
-                            <td>+6</td>
-                            <td>33</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Dijon FC</td>
-                            <td>20</td>
-                            <td>8</td>
-                            <td>7</td>
-                            <td>5</td>
-                            <td>26</td>
-                            <td>24</td>
-                            <td>+2</td>
-                            <td>31</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Bourges 18</td>
-                            <td>20</td>
-                            <td>6</td>
-                            <td>8</td>
-                            <td>6</td>
-                            <td>23</td>
-                            <td>27</td>
-                            <td>-4</td>
-                            <td>26</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <article class="service">
+                <a href="#contact"><button class="contact_button">Contactez-nous</button></a>
             </article>
-        </div>
+        </section>
 
-        <div class="box_players">
-            <h3>Nos joueurs</h3>
-            <article class="players">
-                <figure>
-                    Alexandre Morel – GB<br>
-                    Erwann Dupont – DC<br>
-                    Julien Leroy – DLD<br>
-                    Nicolas Fontaine – DLG<br>
-                    Marie Garnier – MD<br>
-                    Antoine Lemoine – MO<br>
-                </figure>
-                <figure>
-                    Sébastien Marchand – AD<br>
-                    Vincent Lefèvre – AG<br>
-                    Roleau Rousseau – AC<br>
-                    Lucas Perrin – DC<br>
-                    Yoan Chauvet – MC<br>
-                </figure>
-                <figure>
-                    Danil Deschamps – AC<br>
-                    Damien Girard – DL<br>
-                    Thommy Charpentier – MD<br>
-                    Adrien Pelletier – GB<br>
-                    Roger Hugues – MO<br>
-                    Florian Bernard – MR<br>
-                </figure>
-            </article>
-            <img title="Un entraînement quotidien" src="img/AFC_team.jpg" alt="Equipe">
-            <a href="#contact"><button class="member_button">Devenir membre</button></a>
-        </div>
-    </section>
+        <section id="team">
+            <h2>AFC Team</h2>
 
-    <!------------------ Contact section --------------->
-    <section id="contact">
-        <h2>Laissez-nous un message,<br><span>nous serions ravis de vous connaître</span></h2>
+            <div class="box_news">
+                <h3>Actualités</h3>
 
-        <div class="message">
-            <label for="message">Votre message</label>
-            <textarea id="message" placeholder="Bonjour !!! Pensez bien à signer votre message (Nom)😃"></textarea>
-        </div>
+                <article class="news">
+                    <figure>
+                        <img title="Match AFC - NFC" src="img/news1_illustration.png" alt="Match AFC - NFC">
+                        <figcaption class="news_content">
+                            <h4>AFC crée la sensation en s'imposant face au NFC</h4>
+                            <p>
+                            Dans un match qui s'annonçait très compliqué, AFC a réalisé une
+                            performance exceptionnelle en s'imposant sur le score de 2-1 face à
+                            NFC, leader du championnat Nivernais. Grâce à un but magnifique
+                            d'Antoinne Lefèvre, AFC signe sa troisième victoire consécutive et
+                            se rapproche de la tête de liste du championnat.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </article>
 
-        <div class="email">
-            <input type="email" id="email" placeholder="Votre adresse e-mail">
-            <button type="submit" class="send_button">Envoyer</button>
-        </div>
-    </section>
+                <article class="news">
+                    <figure>
+                        <figcaption class="news_content">
+                            <h4>AFC se renforce avec l'arrivée de Roger Hugues</h4>
+                            <p>
+                                Nous sommes heureux d'annoncer la signature de Roger Hugues, un
+                                milieu de terrain de 19 ans en provenance de Toulouse Club. Ce jeune
+                                talent, réputé pour sa vision du jeu et sa technique, apportera un
+                                plus indéniable à l'effectif de Martin LeNevers (Coach AFC).
+                            </p>
+                        </figcaption>
+                        <img title="Roger en action" src="img/news2_illustration.jpg" alt="Roger en action">
+                    </figure>
+                </article>
+            </div>
+
+            <div class="box_ticketing_league" id="ticketing">
+                <article class="ticket">
+                    <h3>Billetterie</h3>
+                    <figure>
+                        <figcaption class="match">
+                            <h4>Avenir FC vs Nièvre FC</h4>
+                            <img src="img/afc_vs_nfc_logo.png" alt="">
+                            <p class="match_date">Samedi 25 Mai 2025 - 18h00</p>
+                        </figcaption>
+
+                        <figcaption class="ticket_info">
+                            <p><strong>Lieu :</strong> Stade Municipal, Nevers</p>
+                            <p><strong>Catégorie :</strong> VIP</p>
+                            <p><strong>Prix :</strong> €45</p>
+                            <p><strong>Numéro de siège :</strong> Bloc C - Rang 5 - Place 4</p>
+                        </figcaption>
+
+                        <figcaption class="ticket_code">
+                            <p class="barcode">█████████████████████</p>
+                            <a href="#ticketing"><button class="ticket_button">Réserve ta place maintenant</button></a>
+                        </figcaption>
+                    </figure>
+                </article>
+            
+                <article class="league">
+                    <h3>Classement en ligue régionale</h3>
+                    <table class="league_table">
+                        <thead>
+                            <tr>
+                                <th>Position</th>
+                                <th>Équipe</th>
+                                <th>J</th>
+                                <th>V</th>
+                                <th>N</th>
+                                <th>D</th>
+                                <th>BP</th>
+                                <th>BC</th>
+                                <th>DF</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Nièvre FC</td>
+                                <td>20</td>
+                                <td>16</td>
+                                <td>3</td>
+                                <td>1</td>
+                                <td>45</td>
+                                <td>14</td>
+                                <td>+31</td>
+                                <td>51</td>
+                            </tr>
+                            <tr class="afc_league_ranking">
+                                <td>2</td>
+                                <td>Avenir FC</td>
+                                <td>20</td>
+                                <td>15</td>
+                                <td>4</td>
+                                <td>1</td>
+                                <td>41</td>
+                                <td>18</td>
+                                <td>+23</td>
+                                <td>49</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Nevers Sport</td>
+                                <td>20</td>
+                                <td>14</td>
+                                <td>5</td>
+                                <td>1</td>
+                                <td>37</td>
+                                <td>20</td>
+                                <td>+17</td>
+                                <td>47</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Orléans FC</td>
+                                <td>20</td>
+                                <td>12</td>
+                                <td>6</td>
+                                <td>2</td>
+                                <td>33</td>
+                                <td>21</td>
+                                <td>+12</td>
+                                <td>42</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>AS Montargis</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>8</td>
+                                <td>2</td>
+                                <td>32</td>
+                                <td>25</td>
+                                <td>+7</td>
+                                <td>38</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Clermont Foot</td>
+                                <td>20</td>
+                                <td>9</td>
+                                <td>6</td>
+                                <td>5</td>
+                                <td>28</td>
+                                <td>22</td>
+                                <td>+6</td>
+                                <td>33</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Dijon FC</td>
+                                <td>20</td>
+                                <td>8</td>
+                                <td>7</td>
+                                <td>5</td>
+                                <td>26</td>
+                                <td>24</td>
+                                <td>+2</td>
+                                <td>31</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Bourges 18</td>
+                                <td>20</td>
+                                <td>6</td>
+                                <td>8</td>
+                                <td>6</td>
+                                <td>23</td>
+                                <td>27</td>
+                                <td>-4</td>
+                                <td>26</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+
+            <div class="box_players">
+                <h3>Nos joueurs</h3>
+                <article class="players">
+                    <figure>
+                        Alexandre Morel – GB<br>
+                        Erwann Dupont – DC<br>
+                        Julien Leroy – DLD<br>
+                        Nicolas Fontaine – DLG<br>
+                        Marie Garnier – MD<br>
+                        Antoine Lemoine – MO<br>
+                    </figure>
+                    <figure>
+                        Sébastien Marchand – AD<br>
+                        Vincent Lefèvre – AG<br>
+                        Roleau Rousseau – AC<br>
+                        Lucas Perrin – DC<br>
+                        Yoan Chauvet – MC<br>
+                    </figure>
+                    <figure>
+                        Danil Deschamps – AC<br>
+                        Damien Girard – DL<br>
+                        Thommy Charpentier – MD<br>
+                        Adrien Pelletier – GB<br>
+                        Roger Hugues – MO<br>
+                        Florian Bernard – MR<br>
+                    </figure>
+                </article>
+                <img title="Un entraînement quotidien" src="img/AFC_team.jpg" alt="Equipe">
+                <a href="#contact"><button class="member_button">Devenir membre</button></a>
+            </div>
+        </section>
+
+        <!------------------ Contact section --------------->
+        <section id="contact">
+            <h2>Laissez-nous un message,<br><span>nous serions ravis de vous connaître</span></h2>
+
+            <div class="message">
+                <label for="message">Votre message</label>
+                <textarea id="message" placeholder="Bonjour !!! Pensez bien à signer votre message (Nom)😃"></textarea>
+            </div>
+
+            <div class="email">
+                <input type="email" id="email" placeholder="Votre adresse e-mail">
+                <button type="submit" class="send_button">Envoyer</button>
+            </div>
+        </section>
+    </main>
 
     <!---------------------Footer------------------------>
     <footer>
@@ -551,12 +553,12 @@
             </article>
         </div>
 
-         <div class="footer-partners">
+        <div class="footer-partners">
             <h3>Nos partenaires</h3>
             <article class="partners">
-               <a href="https://www.adidas.com" target="_blank" rel="noopener"><img src="img/adidas_logo.svg" alt=""></a>
-               <a href="https://www.puma.com" target="_blank" rel="noopener"><img src="img/puma_logo.svg" alt=""></a>
-               <a href="https://www.nike.com" target="_blank" rel="noopener"><img src="img/nike_logo.svg" alt=""></a>
+            <a href="https://www.adidas.com" target="_blank" rel="noopener"><img src="img/adidas_logo.svg" alt=""></a>
+            <a href="https://www.puma.com" target="_blank" rel="noopener"><img src="img/puma_logo.svg" alt=""></a>
+            <a href="https://www.nike.com" target="_blank" rel="noopener"><img src="img/nike_logo.svg" alt=""></a>
             </article>
         </div>
 
@@ -573,11 +575,6 @@
         <p class="rights">Mentions légales &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; Données personneles &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; CGV &nbsp;&nbsp;&nbsp; I &nbsp;&nbsp;&nbsp; ©AFC_by_Cédrick</p>
     </footer>
 
-    <script>
-        // display burger menu
-        function toggleMenu() {
-            document.querySelector("header").classList.toggle("active");
-        }
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>

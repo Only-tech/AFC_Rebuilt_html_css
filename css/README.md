@@ -1,7 +1,7 @@
 # Avenir Football Club
 
 ## Description
-Le projet **Avenir Football Club** reflète l'identité du club de football fictif, Avenir Football Club, avec ses valeurs, ses services, et son ambition de fédérer sa communauté. Il inclut une boutique en ligne, un classement en ligue régionale, une billetterie, une présentation de l'équipe et des services, le tout dans un format interactif, moderne et accessible.
+Le projet **Avenir Football Club** reflète l'identité d'un club de football fictif, avec ses valeurs, ses services, et son ambition de fédérer sa communauté. Il inclut une boutique en ligne, un classement en ligue régionale, une billetterie, une présentation de l'équipe et des services, le tout dans un format interactif, moderne et accessible.
 
 ### Origine et évolution
 À l'origine, le projet consistait en une landing page destinée à promouvoir un produit spécifique lié au club. Au fil du développement, il s'est transformé en une plateforme complète offrant un écosystème numérique pour tous les fans et membres du club. Ce passage a demandé :
@@ -77,6 +77,7 @@ Voici une vue simplifiée de l'organisation du projet :
 ├── it.html (Version italienne)
 ├── ukr.html (Version ukrainienne)
 ├── jpn.html (Version japonaise)
+├── main.js (Pour le menu Burger et le Panier)
 ├── css/
 │   └── styles.css (Styles globaux pour toutes les langues)
 │   └── fonts.css (Styles globaux pour toutes les langues)
@@ -281,6 +282,7 @@ Here's a simplified view of the project organization:
 ├── it.html (Italian version)
 ├── ukr.html (Ukrainian version)
 ├── jpn.html (Japanese version)
+├── main.js (for burger menu and shopping cart)
 ├── css/
 │   └── styles.css (Global styles for all languages)
 │   └── fonts.css (Global font styles)

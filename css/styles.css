@@ -14,7 +14,6 @@
     }
   
 
-  
     /* .............Slide-in Animation........... */
     .left_slide_in {
       opacity: 0;
@@ -235,10 +234,30 @@
         width: 100%;
     }
     
+    /* .............shopping cart.............. */
     .cart_logo {
         aspect-ratio: 0.81;
         object-fit: contain;
         width: 38px;
+    }
+
+    .cart {
+        position: relative; 
+        display: inline-block;
+    }
+
+    .cart_add {
+        position: absolute; 
+        top: -5px; 
+        right: -5px; 
+        background-color: red; 
+        color: white; 
+        border-radius: 50%; 
+        padding: 5px; 
+        font-size: 0.7em; 
+        min-width: 15px; 
+        min-height: 15px; 
+        text-align: center;
     }
     
     /* .............afc about section............... */
@@ -1751,6 +1770,10 @@
             gap: none;
         }
 
+        /* .............shopping cart.............. */
+        .cart_add {
+            top: 0;
+        }
         
         /* .............afc about section............... */
         
