@@ -14,6 +14,31 @@
     }
   
 
+    /* ..........................scrollbar........................ */
+    ::-webkit-scrollbar {
+        width: 4px;
+    
+    }
+
+    /* .........scrollbar background...... */
+    ::-webkit-scrollbar-track {
+        background: rgb(255, 255, 255, 0.15);
+        border-radius: 5px;
+        margin: 20px 0;
+    }
+
+    /* ......cursor color....... */
+    ::-webkit-scrollbar-thumb {
+        background: #131C46;
+        border-radius: 5px;
+    }
+
+    /* ..cursor color turn to another one when mouse pointed. */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #333;
+    }
+
+
     /* .............Slide-in Animation........... */
     .left_slide_in {
       opacity: 0;
