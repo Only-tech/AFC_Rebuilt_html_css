@@ -81,16 +81,22 @@ Voici une vue simplifiée de l'organisation du projet :
 ├── css/
 │   └── styles.css (Styles globaux pour toutes les langues)
 │   └── fonts.css (Styles globaux pour toutes les langues)
+├── fonts/
+│   └── Montserrat (Contient les polices)
+│   └── Open_Sans (Contient les polices)
+│   └── Oswald (Contient les polices)
+│   └── Poppins (Contient les polices)
+│   └── Volkhov (Contient les polices)
 ├── img/ (Images utilisées dans le site)
+├── README
 ```
 
 ---
 
 ## Technologies utilisées
 ### Développement
-- **HTML** : Création des pages multilingues.
-- **CSS** : Styles modernes et animations (hover, bounce, slide-in).
-- **Google Fonts** : Intégration de la police Montserrat pour une uniformité visuelle.
+- **HTML5** : Création des pages multilingues.
+- **CSS3** : Styles modernes et animations (hover, bounce, slide-in).
 
 ### Design
 - **Figma** : Outil de conception visuelle utilisé pour structurer et créer une maquette immersive, [consultable ici](https://www.figma.com/design/zRXORc8Cqby9iMO3t7FWcB/Avenir-Football-Club?node-id=0-1&p=f&t=BrUX2Y6FPWfHDFhZ-0).
@@ -188,7 +194,7 @@ Voici le menu permettant aux utilisateurs de choisir la langue du site :
 ---
 
 ## Licence
-Pas de licence spécifique pour le moment.
+Open.....
 
 ---
 
@@ -286,6 +292,12 @@ Here's a simplified view of the project organization:
 ├── css/
 │   └── styles.css (Global styles for all languages)
 │   └── fonts.css (Global font styles)
+├── fonts/
+│   └── Montserrat/
+│   └── Open_Sans/
+│   └── Oswald/
+│   └── Poppins/
+│   └── Volkhov/
 ├── img/ (Images used on the website)
 ```
 
@@ -293,9 +305,8 @@ Here's a simplified view of the project organization:
 
 ## Technologies Used
 ### Development
-- **HTML**: Creation of multilingual pages.
-- **CSS**: Modern styles and animations (hover, bounce, slide-in).
-- **Google Fonts**: Integration of the Montserrat font for visual uniformity.
+- **HTML5**: Creation of multilingual pages.
+- **CSS3**: Modern styles and animations (hover, bounce, slide-in).
 
 ### Design
 - **Figma**: Visual design tool used for structuring and creating an immersive prototype, [accessible here](https://www.figma.com/design/zRXORc8Cqby9iMO3t7FWcB/Avenir-Football-Club?node-id=0-1&p=f&t=BrUX2Y6FPWfHDFhZ-0).
@@ -392,7 +403,7 @@ Here’s the menu allowing users to choose the site’s language:
 ---
 
 ## License
-No specific license at the moment.
+Open....
 
 ---
 
